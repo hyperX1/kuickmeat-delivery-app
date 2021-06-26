@@ -1,0 +1,53 @@
+name: kuickmeat_delivery_app
+description: A new Flutter application.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  firebase_auth: ^1.0.3
+  cloud_firestore: ^1.0.4
+  firebase_core: ^1.1.0
+  email_validator: ^2.0.1
+  flutter_easyloading: ^3.0.0
+  image_picker: ^0.7.4
+  provider: ^5.0.0
+  location: ^4.1.1
+  geocoder: ^0.2.1
+  url_launcher: ^6.0.6
+  map_launcher: ^2.1.0
+  chips_choice: ^2.0.1
+  firebase_storage: ^8.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+    - images/
+
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+
